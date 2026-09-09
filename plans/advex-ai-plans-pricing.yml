@@ -1,0 +1,38 @@
+generated: '2026-09-09'
+method: searched
+source: https://www.advexai.com/
+plan_count: 0
+currency: null
+note: >-
+  Advex AI publishes no priced plans. The company's own pricing section (the "Pricing" anchor on
+  www.advexai.com) named four packaging tiers — 1-Cam Pilot, Starter Plan, Growth Plan and Enterprise
+  — but attached no price, currency or billing period to any of them; every tier's call to action was
+  "Try Composer Free" and packaging was expressed only in hardware units (Advex boxes, cameras,
+  models). Enterprise was explicitly "Tailored Deployments". As of 2026-09-09 the pricing page cannot
+  be read at all: https://www.advexai.com/ returns HTTP 404 (an unpublished Framer site) and
+  https://advex.ai/ 301-redirects into it, so there is no live pricing surface to quote. plan_count is
+  recorded as 0 because no plan with a published price exists — not because pricing was not looked for.
+packaging_tiers_observed:
+- name: 1-Cam Pilot
+  price: null
+  includes: 1 Advex box, 1 camera, 1 model
+- name: Starter Plan
+  price: null
+  includes: 1 Advex box, 4 cameras, 1 model
+- name: Growth Plan
+  price: null
+  includes: 2 Advex boxes, 8 cameras, 2 models
+- name: Enterprise
+  price: null
+  includes: Flexible bundles, tailored deployments, dedicated support, global rollout flexibility
+observed_source:
+  url: http://web.archive.org/web/20260612174810/https://www.advexai.com/
+  status: 200
+  captured: '2026-06-12'
+  reason: >-
+    The live page is 404; the tier names above are read from the Internet Archive capture of the
+    provider's own page and are marked as observed, not as currently published.
+live_check:
+  url: https://www.advexai.com/
+  status: 404
+  checked: '2026-09-09'

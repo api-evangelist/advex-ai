@@ -1,0 +1,16 @@
+generated: '2026-09-09'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: www.advexai.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Oct 28 17:22:08 2026 GMT
+  hsts: null
+domains:
+- domain: advexai.com
+  dnssec: true
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: quarantine

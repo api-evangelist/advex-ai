@@ -64,5 +64,28 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Advex AI is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.nasdaqprivatemarket.com/
+Advex AI (Advex AI, Inc., San Francisco / Pleasanton, California; founded 2022 by Pedro Pachuca and
+Qasim Wani) builds generative-AI synthetic data and self-healing computer vision for industrial
+quality inspection. Its flagship product, Composer, is a no-code AI vision system that lets
+manufacturing and logistics teams train, deploy and manage visual inspection tasks — defect and
+anomaly detection, pick-and-place, kitting and assembly verification, counting — from a handful of
+real images, using diffusion models to synthesize the missing training data. Composer ships as an
+on-premises appliance (the "Advex box") paired with plant cameras and is designed to run entirely
+on-device without network connectivity.
+
+## API surface
+
+**Advex AI publishes no public API.** As of 2026-09-09 there is no developer portal, API reference,
+SDK on any public package registry, OpenAPI/AsyncAPI/GraphQL/Protobuf/WSDL contract, MCP server, A2A
+agent card, or `/.well-known` document on any host the company owns — 9 well-known paths and 13 spec
+paths were probed across four hosts and every one returned HTTP 404.
+
+The company's own website is also currently unpublished: `https://advex.ai/` 301-redirects to
+`https://www.advexai.com/`, which returns HTTP 404 from an unpublished Framer site for the root and
+every path. The last live capture in the Internet Archive is 2026-06-12. No shutdown, acquisition or
+rename has been announced, and DNS and Google Workspace mail records for advexai.com remain active.
+
+## Links
+
+- Website (currently HTTP 404): https://www.advexai.com/
+- GitHub organization: https://github.com/AdvexAI
