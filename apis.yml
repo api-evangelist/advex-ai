@@ -23,10 +23,10 @@ modified: '2026-09-09'
 tags:
 - Company
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Synthetic Data
 - Manufacturing
-- Machine-Learning
+- Machine Learning
 - Quality Inspection
 - Industrial Automation
 tags_raw:
@@ -38,6 +38,8 @@ tags_raw:
 - Machine Learning
 - Quality Inspection
 - Industrial Automation
+- Computer-Vision
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
